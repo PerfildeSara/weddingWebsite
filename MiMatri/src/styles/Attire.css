@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+.attire {
+  width: 700px;
+  overflow-y: scroll;
+  min-height: 600px;
+  max-height: 80vh;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.attire h2 {
+  justify-content: flex-start;
+  font-weight: 400;
+  color: #485b44;
+  padding-top: 30px;
+}
+.attire h3 {
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .attire {
+    width: 100vw;
+    max-height: 80vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style: none;
+    box-shadow: none;
+  }
+}/*# sourceMappingURL=Attire.css.map */

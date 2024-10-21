@@ -1,0 +1,36 @@
+@import "../styles/Styles.scss";
+
+    .FooterInformation{
+        bottom: 0;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        margin-top: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .Seal{
+           width: auto;
+            display: flex;
+            justify-content: center;
+            justify-self: center;
+            font-weight: 100;
+            align-items: center;
+            .FootersHeart{
+                width: auto;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+           
+        }
+    }
+   
+
+    @media screen and (max-width: 768px){
+        .FooterInformation{
+            .Seal{
+                font-size: 25px;
+            }
+        }
+    }
