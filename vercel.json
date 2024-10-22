@@ -1,7 +1,0 @@
-{
-  "rootDirectory": "MiMatri", 
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}
-
