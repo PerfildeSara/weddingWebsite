@@ -8,7 +8,7 @@ function Header() {
     return (
       <nav className='header'>
         <ul>
-            <li><Link to="/" className='headerColors'> Home</Link></li>
+            <li><Link to="/" className='headerColors'> <Homehola></Homehola></Link></li>
             <li><Link to="/ceremonia" className='headerColors'> Ceremonia</Link></li>
             <li><Link to="/shedule" className='headerColors'> Programa</Link></li>
             <li><Link to="/vestuario" className='headerColors'> Vestuario</Link></li>
