@@ -9,24 +9,19 @@ function Shedule(){
       <h1>Programa</h1>
       <ul>
         <li>
-          <div className="iconContainer"><FontAwesomeIcon icon={faLocationDot} className="icon"/></div>
           <div className="information"><h2>03:30   p.m</h2><h3>Llegada de invitados</h3></div>
         </li>
         <li>
-          <div className="iconContainer"><FontAwesomeIcon icon={faHeart} className="icon"/></div>
           <div className="information"><h2>04:00   p.m</h2><h3>Ceremonia</h3></div>
         </li>
         <li>
-          <div className="iconContainer"><FontAwesomeIcon icon={faCamera} className="icon"/></div>
           <div className="information"><h2>05:00   p.m</h2><h3>Saca tu mejor pose, queremos fotos para recordar este día cuando seamos viejitos</h3></div>
         </li>
         <li>
-          <div className="iconContainer"><FontAwesomeIcon icon={faBurger} className="icon"/></div>
           <div className="information"><h2>07:00   p.m</h2><h3>Cenamos en familia</h3></div>
         </li>
 
         <li>
-          <div className="iconContainer"><FontAwesomeIcon icon={faFaceSmileBeam} className="icon"/></div>
           <div className="information"><h2>08:00   p.m</h2><h3>Velitas y chucuchucu</h3></div>
         </li>
         

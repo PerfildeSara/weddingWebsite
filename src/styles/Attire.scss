@@ -1,7 +1,7 @@
 @import "../styles/Styles.scss";
 
 .attire{
-    
+    top:50px;
     width: 700px;
     overflow-y: scroll;
     min-height: 600px;
@@ -34,6 +34,7 @@
         max-height: 80vh; 
          margin-top: 0px;
          margin-bottom: 0px;
+         padding-bottom: 70px;
          border-style: none;
          box-shadow: none;
     }

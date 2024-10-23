@@ -2,14 +2,17 @@
 
 
 .ceremony{
-    width: 500px;
-    overflow-y: scroll;
-    min-height: 600px;
-    max-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    overflow-y: auto;
+  
+
+   
+    
+   
     text-align: center;
     border-radius: 2px;
     border-style: solid;
@@ -63,9 +66,12 @@
     }
     .confirmation{
         height: auto;
-        h4{
-            font-weight: 300;
-        }
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.5; 
+        color: $green;
+        padding-left: 50px;
+        padding-right: 50px;
     }
    
    
@@ -74,10 +80,38 @@
 }
 @media screen and (max-width: 768px){
     .ceremony{
+        top:50px;
+        width: 90vw;
+        height: 90vh;
         border-style: none;
         box-shadow: none;
-   
-    .countdownSpace{
+        overflow-y: auto;
+        padding-bottom: 50px;
         margin-top: 30px;
-    }
+        .title{
+        margin-top: 0px;
+        margin-bottom: 40px;
+        line-height: 1;
+        h1{
+            margin-bottom: 10px;
+        }
+        }
+        .date{
+            height: auto;
+            padding-top: 40px;
+            padding-bottom: 80px;
+        }
+        .countdownSpace{
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+        }
+        .confirmation{
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 120px;
+            height: 42px;
+            text-align: justify;
+           
+        }
 }}

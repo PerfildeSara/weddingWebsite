@@ -21,7 +21,7 @@ function Ceremony(){
          <div className="Countdown"><Countdown targetDate={targetDate} /></div>
       </p>
       <p className="confirmation">
-         <h4>Confirma tu asistencia antes del 05/11/24 <br/>3123685048</h4>
+         Confirma con Sara o Matías tu asistencia antes del 10/11/24
       </p>
     </div>
    )
