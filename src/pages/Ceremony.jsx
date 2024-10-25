@@ -6,22 +6,29 @@ function Ceremony(){
    const targetDate = new Date('2024-12-07T15:30:00'); // Cambia la fecha según tu necesidad
    return(
     <div className="ceremony">
-      <p className="title">
-         <h1>Mati y Sara</h1>
-         <h3>Se casan y quieren celebrarlo contigo</h3>
+      <div className="title">
+         
+         <h1>El matri de Mati y Sara</h1>
+         
+         <h3>Nos emociona haber elegido un día para celebrar 
+            nuestro amor y nos encantaría hacerlo contigo. 
+            <br/>
+            <br/>
+            El mejor regalo que nos puedes dar es tu presencia. 
+         </h3>
+      </div>
+      <p className="time">
+         <h2>Sabado 07 de diciembre 2024 
+         </h2>
       </p>
       <p className="date">
-         <h2>Ceremonia y recepción</h2>
-         <p>Condominio Las Margaritas casa 10E<br/>
-         Sabado 07 de diciembre 2024<br/>
-         03:30 P.M.</p>
-      </p>
-      <p className="countdownSpace">
-         <h3>Faltan</h3>
-         <div className="Countdown"><Countdown targetDate={targetDate} /></div>
-      </p>
-      <p className="confirmation">
-         Confirma con Sara o Matías tu asistencia antes del 10/11/24
+       
+         <p>Te esperamos en el 
+            Condominio Las Margaritas casa 10E en Combia, 
+            Risaralda 03:30 P.M. 
+            <br/>
+            Confirma tu asistencia antes del 10/11/24
+         </p>
       </p>
     </div>
    )

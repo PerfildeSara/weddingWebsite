@@ -30,9 +30,9 @@ function Countdown({ targetDate }) {
   return (
     <div className='CountDown'>
       <ul>
-        <li><div>{timeLeft.days} </div> días</li>
-        <li><div>{timeLeft.hours}</div> horas</li>
-        <li><div>{timeLeft.minutes}</div> minutos</li>
+        <li><div>{timeLeft.days} </div> D</li>
+        <li><div>{timeLeft.hours}</div> H</li>
+        <li><div>{timeLeft.minutes}</div> M</li>
       </ul>
     </div>              
   );

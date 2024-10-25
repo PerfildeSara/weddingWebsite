@@ -1,12 +1,13 @@
 @import "../styles/Styles.scss";
 
 .CountDown{
-    background-color:rgb(255, 0, 238);
    width: auto;
    height: auto;
     ul{
         display: flex;
         flex-direction:row;
+        width: auto;
+        justify-content: center;
         li{
             display: flex;
             flex-direction:column;
@@ -16,8 +17,9 @@
             width: auto;
             height: auto;
             font-size: large;
-            font-weight: 100;
+            font-weight: 300;
             font-size: 35px; 
+            color:$green;
             font-size: 20px;
             div{
                 width: auto;
@@ -26,14 +28,12 @@
                 flex-direction:column;
                 justify-content: center;
                 align-items: center;
-                background-color: $green;
-                color: $background;
-                border-style: solid;
-                font-size: 50px;
-                width: 80px;
-                height: 80px;
-                border-radius: 10px;
+                font-size: 35px;
+                width: 60px;
+                height: 60px;
+                margin: 3px;
                 font-weight: 300;
+                color:$green;
             }
 
         }

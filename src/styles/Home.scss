@@ -6,17 +6,30 @@
     align-items: center;
     justify-content:center;
     width: 100%;
-    height:90vh;
+    height:100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
     .textoHome{
         display: flex;
         flex-direction: column;
         width: 50%;
         justify-content: center;
         align-items: center;
-        .weddingsdate{
-            
+        padding-left: 50px;
+        padding-right: 50px;
+        .SubtitleHome{
+            width: 100%;
+            height: auto;
+            font-size: 120px;
+            color: $green;
+            font-weight: 600;
+            font-family: $cursiveFont;
+            text-align: center;
+        }
+        .countdownSpace{
             width: 100%;
             display: flex;
+            flex-direction: column;
             height: auto;
             justify-content: center;
             align-items: center;
@@ -24,17 +37,7 @@
             font-weight: 100;
             font-size: 60px;
         }
-        .SubtitleHome{
-            width: 100%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 120px;
-            color: $green;
-            font-weight: 600;
-            font-family: $cursiveFont;
-        }
+        
       
     }
     .HomeImage{
@@ -58,31 +61,37 @@
 
 @media screen and (max-width: 768px) {
     .home{
-        flex-direction:column-reverse;
+        flex-direction:column;
         width: 100%;
+        height: auto;
+        height: 100vh;
+        max-height: auto;
         padding-left:20px;
         padding-right: 20px;
-        margin-bottom: 50px;
-        margin-bottom: 50px;
-
-        
+        padding-bottom: 80px;
+        margin-top: 50px;
+        padding-top: 30px;
+        justify-content: flex-start;
+       
         .textoHome{
             width: 100%;
-            height: 20%;
-            padding-top: 20px;
-            
-            .weddingsdate{
-                font-size:40px;
-            }
+            height: 40%;
+            padding-left: 0px;
+            padding-right: 0px;
+           
             .SubtitleHome{
-               line-height: 1;
-               padding-bottom: 15px;
-              font-size: 60px;
+                line-height: 1;
+                padding-bottom: 15px;
+                font-size: 60px;
+             
+            }
+            .countdownSpace{
+                padding-bottom: 300px;
             }
         }
         .HomeImage{
             width: 100%;
-            height: 70%;
+            height: 60%;
             padding-bottom: 30px;
             img{
                 margin-top: 20px;
